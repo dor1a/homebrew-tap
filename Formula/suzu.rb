@@ -1,8 +1,8 @@
 class Suzu < Formula
-  desc "Send macOS notifications with the sender's own icon for Claude Code and Codex"
+  desc "Send macOS notifications with Claude Code, Codex or suzu's own icon"
   homepage "https://github.com/dor1a/suzu"
-  url "https://github.com/dor1a/suzu/archive/refs/tags/v0.1.0.tar.gz"
-  sha256 "234b7fc68907423b8cfac69fb80797e26c8eb670b86fc986978edaa0b243b881"
+  url "https://github.com/dor1a/suzu/archive/refs/tags/v0.1.1.tar.gz"
+  sha256 "90635068052954651213e9eece41cef7e152e1940333fe4d583b49b6a49e5210"
   license "MIT"
 
   depends_on :macos
@@ -17,7 +17,8 @@ class Suzu < Formula
 
   def caveats
     <<~EOS
-      Run this once and allow both notification prompts:
+      Run this and allow each notification prompt (Claude Code, Codex, suzu),
+      also after an upgrade that adds an app:
         suzu setup
       The Claude icon comes from /Applications/Claude.app and the Codex icon from
       the Codex app or its VS Code extension. If one was installed later, run:

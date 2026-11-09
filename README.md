@@ -8,6 +8,6 @@ brew install dor1a/tap/suzu
 
 | Formula | What it does |
 | -- | -- |
-| [suzu](https://github.com/dor1a/suzu) | macOS notifications with the sender's own icon for Claude Code and Codex |
+| [suzu](https://github.com/dor1a/suzu) | macOS notifications with the sender's own icon: Claude Code, Codex, or suzu's bell for your scripts |
 
 Formulae build from source, so they need the Xcode Command Line Tools.
