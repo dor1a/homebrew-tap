@@ -1,8 +1,8 @@
 class Sshfzf < Formula
   desc "Pick an SSH host from a tree generated from one hosts.yaml"
   homepage "https://github.com/dor1a/sshfzf"
-  url "https://github.com/dor1a/sshfzf/archive/refs/tags/v0.2.0.tar.gz"
-  sha256 "a4e376c4d2fed08f9bb99ab498502e0b1fbf4063576137a63c6a4f6dff3314cb"
+  url "https://github.com/dor1a/sshfzf/archive/refs/tags/v0.2.1.tar.gz"
+  sha256 "2f1b7ccc66015a95210fa55b7ce9b0d1f71f40cfd116cf5bf00560ca47e0b4b0"
   license "MIT"
 
   depends_on "fzf"
